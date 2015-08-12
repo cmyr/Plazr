@@ -9,7 +9,7 @@
 import Foundation
 import CoreData
 
-class Transaction: NSManagedObject {
+class TransactionData: NSManagedObject {
 
 // Insert code here to add functionality to your managed object subclass
 

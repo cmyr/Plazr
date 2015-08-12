@@ -12,7 +12,7 @@
 import Foundation
 import CoreData
 
-extension Inventory {
+extension InventoryData {
 
     @NSManaged var category: Int16
     @NSManaged var title: String?
@@ -21,7 +21,7 @@ extension Inventory {
     @NSManaged var unit_cost: Float
     @NSManaged var art: NSData?
     @NSManaged var buyer: Int16
-    @NSManaged var sku: String?
+    @NSManaged var sku: String
     @NSManaged var info: String?
     @NSManaged var stock: Int16
     @NSManaged var transactions: NSSet?

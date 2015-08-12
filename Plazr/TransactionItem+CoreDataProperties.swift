@@ -12,12 +12,12 @@
 import Foundation
 import CoreData
 
-extension TransactionItem {
+extension TransactionItemData {
 
     @NSManaged var date: NSTimeInterval
     @NSManaged var quantity: Int16
     @NSManaged var price: Float
-    @NSManaged var item: Inventory?
+    @NSManaged var item: InventoryData?
     @NSManaged var transaction: NSManagedObject?
 
 }

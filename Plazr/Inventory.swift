@@ -9,7 +9,7 @@
 import Foundation
 import CoreData
 
-class Inventory: NSManagedObject {
+class InventoryData: NSManagedObject {
 
 // Insert code here to add functionality to your managed object subclass
 

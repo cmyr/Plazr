@@ -12,10 +12,10 @@
 import Foundation
 import CoreData
 
-extension Transaction {
+extension TransactionData {
 
     @NSManaged var date: NSTimeInterval
     @NSManaged var items: NSSet?
-    @NSManaged var client: Customer?
+    @NSManaged var client: CustomerData?
 
 }

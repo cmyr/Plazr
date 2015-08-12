@@ -12,11 +12,11 @@
 import Foundation
 import CoreData
 
-extension Customer {
+extension CustomerData {
 
     @NSManaged var name: String?
     @NSManaged var email: String?
     @NSManaged var interests: Int16
-    @NSManaged var purchaes: NSSet?
+    @NSManaged var purchases: NSSet?
 
 }
