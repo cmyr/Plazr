@@ -15,16 +15,24 @@
 		6B7B28C01B7AAA670062DFED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B7B28BE1B7AAA670062DFED /* LaunchScreen.storyboard */; };
 		6B7B28CB1B7AAA670062DFED /* PlazrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B28CA1B7AAA670062DFED /* PlazrTests.swift */; };
 		6B7B28D61B7AAA670062DFED /* PlazrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B28D51B7AAA670062DFED /* PlazrUITests.swift */; };
-		6B7B28EB1B7AB6A60062DFED /* Customer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B28E31B7AB6A60062DFED /* Customer+CoreDataProperties.swift */; };
-		6B7B28EC1B7AB6A60062DFED /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B28E41B7AB6A60062DFED /* Customer.swift */; };
-		6B7B28ED1B7AB6A60062DFED /* Inventory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B28E51B7AB6A60062DFED /* Inventory+CoreDataProperties.swift */; };
-		6B7B28EE1B7AB6A60062DFED /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B28E61B7AB6A60062DFED /* Inventory.swift */; };
-		6B7B28EF1B7AB6A60062DFED /* TransactionItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B28E71B7AB6A60062DFED /* TransactionItem+CoreDataProperties.swift */; };
-		6B7B28F01B7AB6A60062DFED /* TransactionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B28E81B7AB6A60062DFED /* TransactionItem.swift */; };
-		6B7B28F11B7AB6A60062DFED /* Transaction+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B28E91B7AB6A60062DFED /* Transaction+CoreDataProperties.swift */; };
-		6B7B28F21B7AB6A60062DFED /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B28EA1B7AB6A60062DFED /* Transaction.swift */; };
 		6B7B28F61B7B86BC0062DFED /* DataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B28F51B7B86BC0062DFED /* DataStructures.swift */; };
 		6B7B28F71B7B86BC0062DFED /* DataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B28F51B7B86BC0062DFED /* DataStructures.swift */; };
+		6B7B29301B7B9A230062DFED /* CustomerData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B29281B7B9A230062DFED /* CustomerData+CoreDataProperties.swift */; };
+		6B7B29311B7B9A230062DFED /* CustomerData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B29281B7B9A230062DFED /* CustomerData+CoreDataProperties.swift */; };
+		6B7B29321B7B9A230062DFED /* CustomerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B29291B7B9A230062DFED /* CustomerData.swift */; };
+		6B7B29331B7B9A230062DFED /* CustomerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B29291B7B9A230062DFED /* CustomerData.swift */; };
+		6B7B29341B7B9A230062DFED /* TransactionData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B292A1B7B9A230062DFED /* TransactionData+CoreDataProperties.swift */; };
+		6B7B29351B7B9A230062DFED /* TransactionData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B292A1B7B9A230062DFED /* TransactionData+CoreDataProperties.swift */; };
+		6B7B29361B7B9A230062DFED /* TransactionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B292B1B7B9A230062DFED /* TransactionData.swift */; };
+		6B7B29371B7B9A230062DFED /* TransactionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B292B1B7B9A230062DFED /* TransactionData.swift */; };
+		6B7B29381B7B9A230062DFED /* InventoryData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B292C1B7B9A230062DFED /* InventoryData+CoreDataProperties.swift */; };
+		6B7B29391B7B9A230062DFED /* InventoryData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B292C1B7B9A230062DFED /* InventoryData+CoreDataProperties.swift */; };
+		6B7B293A1B7B9A230062DFED /* InventoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B292D1B7B9A230062DFED /* InventoryData.swift */; };
+		6B7B293B1B7B9A230062DFED /* InventoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B292D1B7B9A230062DFED /* InventoryData.swift */; };
+		6B7B293C1B7B9A230062DFED /* TransactionItemData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B292E1B7B9A230062DFED /* TransactionItemData+CoreDataProperties.swift */; };
+		6B7B293D1B7B9A230062DFED /* TransactionItemData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B292E1B7B9A230062DFED /* TransactionItemData+CoreDataProperties.swift */; };
+		6B7B293E1B7B9A230062DFED /* TransactionItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B292F1B7B9A230062DFED /* TransactionItemData.swift */; };
+		6B7B293F1B7B9A230062DFED /* TransactionItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B292F1B7B9A230062DFED /* TransactionItemData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,15 +67,15 @@
 		6B7B28D11B7AAA670062DFED /* PlazrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlazrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B7B28D51B7AAA670062DFED /* PlazrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlazrUITests.swift; sourceTree = "<group>"; };
 		6B7B28D71B7AAA670062DFED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B7B28E31B7AB6A60062DFED /* Customer+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Customer+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		6B7B28E41B7AB6A60062DFED /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
-		6B7B28E51B7AB6A60062DFED /* Inventory+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Inventory+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		6B7B28E61B7AB6A60062DFED /* Inventory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
-		6B7B28E71B7AB6A60062DFED /* TransactionItem+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TransactionItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		6B7B28E81B7AB6A60062DFED /* TransactionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionItem.swift; sourceTree = "<group>"; };
-		6B7B28E91B7AB6A60062DFED /* Transaction+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Transaction+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		6B7B28EA1B7AB6A60062DFED /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		6B7B28F51B7B86BC0062DFED /* DataStructures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStructures.swift; sourceTree = "<group>"; };
+		6B7B29281B7B9A230062DFED /* CustomerData+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CustomerData+CoreDataProperties.swift"; path = "../CustomerData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6B7B29291B7B9A230062DFED /* CustomerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomerData.swift; path = ../CustomerData.swift; sourceTree = "<group>"; };
+		6B7B292A1B7B9A230062DFED /* TransactionData+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TransactionData+CoreDataProperties.swift"; path = "../TransactionData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6B7B292B1B7B9A230062DFED /* TransactionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransactionData.swift; path = ../TransactionData.swift; sourceTree = "<group>"; };
+		6B7B292C1B7B9A230062DFED /* InventoryData+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "InventoryData+CoreDataProperties.swift"; path = "../InventoryData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6B7B292D1B7B9A230062DFED /* InventoryData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InventoryData.swift; path = ../InventoryData.swift; sourceTree = "<group>"; };
+		6B7B292E1B7B9A230062DFED /* TransactionItemData+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TransactionItemData+CoreDataProperties.swift"; path = "../TransactionItemData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6B7B292F1B7B9A230062DFED /* TransactionItemData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransactionItemData.swift; path = ../TransactionItemData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,14 +159,14 @@
 			isa = PBXGroup;
 			children = (
 				6B7B28B91B7AAA670062DFED /* Plazr.xcdatamodeld */,
-				6B7B28E31B7AB6A60062DFED /* Customer+CoreDataProperties.swift */,
-				6B7B28E41B7AB6A60062DFED /* Customer.swift */,
-				6B7B28E51B7AB6A60062DFED /* Inventory+CoreDataProperties.swift */,
-				6B7B28E61B7AB6A60062DFED /* Inventory.swift */,
-				6B7B28E71B7AB6A60062DFED /* TransactionItem+CoreDataProperties.swift */,
-				6B7B28E81B7AB6A60062DFED /* TransactionItem.swift */,
-				6B7B28E91B7AB6A60062DFED /* Transaction+CoreDataProperties.swift */,
-				6B7B28EA1B7AB6A60062DFED /* Transaction.swift */,
+				6B7B29281B7B9A230062DFED /* CustomerData+CoreDataProperties.swift */,
+				6B7B29291B7B9A230062DFED /* CustomerData.swift */,
+				6B7B292A1B7B9A230062DFED /* TransactionData+CoreDataProperties.swift */,
+				6B7B292B1B7B9A230062DFED /* TransactionData.swift */,
+				6B7B292C1B7B9A230062DFED /* InventoryData+CoreDataProperties.swift */,
+				6B7B292D1B7B9A230062DFED /* InventoryData.swift */,
+				6B7B292E1B7B9A230062DFED /* TransactionItemData+CoreDataProperties.swift */,
+				6B7B292F1B7B9A230062DFED /* TransactionItemData.swift */,
 			);
 			name = CoreData;
 			sourceTree = "<group>";
@@ -302,18 +310,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B7B28F21B7AB6A60062DFED /* Transaction.swift in Sources */,
-				6B7B28F11B7AB6A60062DFED /* Transaction+CoreDataProperties.swift in Sources */,
-				6B7B28ED1B7AB6A60062DFED /* Inventory+CoreDataProperties.swift in Sources */,
-				6B7B28F01B7AB6A60062DFED /* TransactionItem.swift in Sources */,
+				6B7B29361B7B9A230062DFED /* TransactionData.swift in Sources */,
+				6B7B293C1B7B9A230062DFED /* TransactionItemData+CoreDataProperties.swift in Sources */,
 				6B7B28B51B7AAA670062DFED /* ViewController.swift in Sources */,
-				6B7B28EE1B7AB6A60062DFED /* Inventory.swift in Sources */,
-				6B7B28EF1B7AB6A60062DFED /* TransactionItem+CoreDataProperties.swift in Sources */,
-				6B7B28EC1B7AB6A60062DFED /* Customer.swift in Sources */,
+				6B7B293E1B7B9A230062DFED /* TransactionItemData.swift in Sources */,
+				6B7B29381B7B9A230062DFED /* InventoryData+CoreDataProperties.swift in Sources */,
+				6B7B29341B7B9A230062DFED /* TransactionData+CoreDataProperties.swift in Sources */,
+				6B7B29321B7B9A230062DFED /* CustomerData.swift in Sources */,
 				6B7B28BB1B7AAA670062DFED /* Plazr.xcdatamodeld in Sources */,
+				6B7B293A1B7B9A230062DFED /* InventoryData.swift in Sources */,
+				6B7B29301B7B9A230062DFED /* CustomerData+CoreDataProperties.swift in Sources */,
 				6B7B28F61B7B86BC0062DFED /* DataStructures.swift in Sources */,
 				6B7B28B31B7AAA670062DFED /* AppDelegate.swift in Sources */,
-				6B7B28EB1B7AB6A60062DFED /* Customer+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,8 +329,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B7B29371B7B9A230062DFED /* TransactionData.swift in Sources */,
+				6B7B29351B7B9A230062DFED /* TransactionData+CoreDataProperties.swift in Sources */,
+				6B7B29311B7B9A230062DFED /* CustomerData+CoreDataProperties.swift in Sources */,
+				6B7B293F1B7B9A230062DFED /* TransactionItemData.swift in Sources */,
+				6B7B29391B7B9A230062DFED /* InventoryData+CoreDataProperties.swift in Sources */,
+				6B7B29331B7B9A230062DFED /* CustomerData.swift in Sources */,
 				6B7B28CB1B7AAA670062DFED /* PlazrTests.swift in Sources */,
+				6B7B293B1B7B9A230062DFED /* InventoryData.swift in Sources */,
 				6B7B28F71B7B86BC0062DFED /* DataStructures.swift in Sources */,
+				6B7B293D1B7B9A230062DFED /* TransactionItemData+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,8 +1,8 @@
 //
-//  Customer+CoreDataProperties.swift
+//  CustomerData+CoreDataProperties.swift
 //  Plazr
 //
-//  Created by Colin Rofls on 2015-08-11.
+//  Created by Colin Rofls on 2015-08-12.
 //  Copyright © 2015 cmyr. All rights reserved.
 //
 //  Delete this file and regenerate it using "Create NSManagedObject Subclass…"

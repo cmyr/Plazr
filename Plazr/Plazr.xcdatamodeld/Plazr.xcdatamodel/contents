@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8175.2" systemVersion="14E46" minimumToolsVersion="Automatic">
-    <entity name="CustomerData" representedClassName=".Customer" syncable="YES">
+    <entity name="CustomerData" representedClassName=".CustomerData" syncable="YES">
         <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="interests" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="purchases" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TransactionData" inverseName="client" inverseEntity="TransactionData" syncable="YES"/>
     </entity>
-    <entity name="InventoryData" representedClassName=".Inventory" syncable="YES">
+    <entity name="InventoryData" representedClassName=".InventoryData" syncable="YES">
         <attribute name="art" optional="YES" attributeType="Binary" syncable="YES"/>
         <attribute name="artist" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="buyer" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
@@ -19,12 +19,12 @@
         <attribute name="unit_cost" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
         <relationship name="transactions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TransactionItemData" inverseName="item" inverseEntity="TransactionItemData" syncable="YES"/>
     </entity>
-    <entity name="TransactionData" representedClassName=".Transaction" syncable="YES">
+    <entity name="TransactionData" representedClassName=".TransactionData" syncable="YES">
         <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
         <relationship name="client" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CustomerData" inverseName="purchases" inverseEntity="CustomerData" syncable="YES"/>
         <relationship name="items" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TransactionItemData" inverseName="transaction" inverseEntity="TransactionItemData" syncable="YES"/>
     </entity>
-    <entity name="TransactionItemData" representedClassName=".TransactionItem" syncable="YES">
+    <entity name="TransactionItemData" representedClassName=".TransactionItemData" syncable="YES">
         <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="price" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
         <attribute name="quantity" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>

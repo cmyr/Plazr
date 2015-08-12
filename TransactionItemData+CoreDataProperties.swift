@@ -1,8 +1,8 @@
 //
-//  TransactionItem+CoreDataProperties.swift
+//  TransactionItemData+CoreDataProperties.swift
 //  Plazr
 //
-//  Created by Colin Rofls on 2015-08-11.
+//  Created by Colin Rofls on 2015-08-12.
 //  Copyright © 2015 cmyr. All rights reserved.
 //
 //  Delete this file and regenerate it using "Create NSManagedObject Subclass…"
@@ -18,6 +18,6 @@ extension TransactionItemData {
     @NSManaged var quantity: Int16
     @NSManaged var price: Float
     @NSManaged var item: InventoryData?
-    @NSManaged var transaction: NSManagedObject?
+    @NSManaged var transaction: TransactionData?
 
 }

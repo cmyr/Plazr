@@ -34,7 +34,7 @@ struct Inventory {
         publisher = managedObject.publisher
         unit_cost = managedObject.unit_cost
         buyer = managedObject.buyer
-        sku = managedObject.sku
+        sku = managedObject.sku!
         info = managedObject.info
         stock = managedObject.stock
 
@@ -76,7 +76,7 @@ struct TransactionItem {
         quantity = managedObject.quantity
         price = managedObject.price
         _itemData = managedObject.item
-        _transactionData = managedObject.transaction as? TransactionData
+        _transactionData = managedObject.transaction
 
     }
 }

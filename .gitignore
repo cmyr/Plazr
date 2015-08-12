@@ -6,6 +6,7 @@
 .DS_Store
 */.DS_Store
 
+# project specific
 
 ## Build generated
 build/
@@ -21,7 +22,8 @@ DerivedData
 *.perspectivev3
 !default.perspectivev3
 xcuserdata
-*/*/*/xcuserdata/*
+**/xcuserdata/*
+
 
 ## Other
 *.xccheckout
