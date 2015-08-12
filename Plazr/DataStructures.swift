@@ -13,15 +13,24 @@ struct Inventory {
     enum Category: Int16 {
         case Book
         case Music
+
+        var skuPrefix: String {
+            switch self {
+            case .Book:
+                return "b-"
+            case .Music:
+                return "m-"
+            }
+        }
     }
 
     let category: Category
     let title: String?
     let artist: String?
     let publisher: String?
-    let unit_cost: Float
+    let unitCost: Float
+    let retailCost: Float
     let art: UIImage?
-    let buyer: Int16
     let sku: String
     let info: String?
     let stock: Int16
@@ -32,8 +41,9 @@ struct Inventory {
         title = managedObject.title
         artist = managedObject.artist
         publisher = managedObject.publisher
-        unit_cost = managedObject.unit_cost
-        buyer = managedObject.buyer
+        unitCost = managedObject.unit_cost
+        //FIXME: I don't exist in CD yet
+        retailCost = 25
         sku = managedObject.sku!
         info = managedObject.info
         stock = managedObject.stock
