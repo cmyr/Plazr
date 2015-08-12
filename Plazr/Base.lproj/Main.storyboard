@@ -139,6 +139,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="inventorySearchBar" destination="qbL-dz-UzO" id="AOh-91-s2i"/>
                         <outlet property="searchDisplayController" destination="ga4-6a-v7n" id="gBL-Oc-3E3"/>
                         <outlet property="tableView" destination="0qb-gu-wY2" id="YSH-2E-QtO"/>
                     </connections>

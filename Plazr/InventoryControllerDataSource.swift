@@ -10,7 +10,7 @@ import UIKit
 import CoreData
 
 
-class InventoryControllerDataSource: NSObject, UITableViewDataSource, NSFetchedResultsControllerDelegate {
+class InventoryControllerDataSource: NSObject, UITableViewDataSource, NSFetchedResultsControllerDelegate, UISearchBarDelegate {
     let inventoryCellIdentifier = "inventoryItemCell"
     let tableView: UITableView
 
@@ -24,6 +24,7 @@ class InventoryControllerDataSource: NSObject, UITableViewDataSource, NSFetchedR
             }
         }
     }
+
 
     init(tableView: UITableView) {
         self.tableView = tableView
@@ -52,4 +53,21 @@ class InventoryControllerDataSource: NSObject, UITableViewDataSource, NSFetchedR
         return fetchedResultsController?.sections?[section].numberOfObjects ?? 0
     }
 
+    // MARK: Search
+
+    func searchBar(searchBar: UISearchBar, textDidChange searchText: String) {
+        if searchText.characters.count > 0 {
+            fetchedResultsController.fetchRequest.predicate = NSPredicate(
+                format: "(title contains[cd] %@) OR (artist contains[cd] %@)", searchText, searchText)
+        } else {
+            fetchedResultsController.fetchRequest.predicate = nil
+        }
+
+        do {
+            try fetchedResultsController.performFetch()
+            tableView.reloadData()
+        } catch let error as NSError {
+            print("error performing fetch \(error)")
+        }
+    }
 }

@@ -10,7 +10,9 @@ import UIKit
 
 class InventoryViewController: UIViewController, UITableViewDelegate {
 
+    @IBOutlet weak var inventorySearchBar: UISearchBar!
     @IBOutlet weak var tableView: UITableView!
+
     let inventoryManager = InventoryManager()
     var dataSource: InventoryControllerDataSource?
 
@@ -22,7 +24,7 @@ class InventoryViewController: UIViewController, UITableViewDelegate {
         dataSource = InventoryControllerDataSource(tableView: tableView)
         dataSource?.fetchedResultsController = inventoryManager.inventoryFetchedResultsController()
 
-        // Do any additional setup after loading the view.
+        inventorySearchBar.delegate = dataSource
     }
 
     override func didReceiveMemoryWarning() {
@@ -34,6 +36,15 @@ class InventoryViewController: UIViewController, UITableViewDelegate {
     func tableView(tableView: UITableView, shouldIndentWhileEditingRowAtIndexPath indexPath: NSIndexPath) -> Bool {
         return false
     }
+
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        inventorySearchBar.resignFirstResponder()
+    }
+
+    func scrollViewDidScroll(scrollView: UIScrollView) {
+        inventorySearchBar.resignFirstResponder()
+    }
+
 
     /*
     // MARK: - Navigation
