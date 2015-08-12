@@ -11,6 +11,10 @@
 		6B6ED58D1B7BB43B00F2AB24 /* InventoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6ED58B1B7BB43B00F2AB24 /* InventoryManager.swift */; };
 		6B6ED58F1B7BC42E00F2AB24 /* PersistantStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6ED58E1B7BC42E00F2AB24 /* PersistantStack.swift */; };
 		6B6ED5901B7BC42E00F2AB24 /* PersistantStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6ED58E1B7BC42E00F2AB24 /* PersistantStack.swift */; };
+		6B6ED5921B7BD8DB00F2AB24 /* InventoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6ED5911B7BD8DB00F2AB24 /* InventoryTableViewCell.swift */; };
+		6B6ED5931B7BD8DB00F2AB24 /* InventoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6ED5911B7BD8DB00F2AB24 /* InventoryTableViewCell.swift */; };
+		6B6ED5951B7BDE5B00F2AB24 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B6ED5941B7BDE5B00F2AB24 /* Media.xcassets */; };
+		6B6ED5961B7BDE5B00F2AB24 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B6ED5941B7BDE5B00F2AB24 /* Media.xcassets */; };
 		6B707A091B7BAA1800C79F11 /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B707A081B7BAA1800C79F11 /* InventoryViewController.swift */; };
 		6B707A0B1B7BAB5800C79F11 /* InventoryControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B707A0A1B7BAB5800C79F11 /* InventoryControllerDataSource.swift */; };
 		6B7B28B31B7AAA670062DFED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B28B21B7AAA670062DFED /* AppDelegate.swift */; };
@@ -58,8 +62,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6B6ED58B1B7BB43B00F2AB24 /* InventoryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InventoryManager.swift; path = Plazr/InventoryManager.swift; sourceTree = "<group>"; };
-		6B6ED58E1B7BC42E00F2AB24 /* PersistantStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersistantStack.swift; path = Plazr/PersistantStack.swift; sourceTree = "<group>"; };
+		6B6ED58B1B7BB43B00F2AB24 /* InventoryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryManager.swift; sourceTree = "<group>"; };
+		6B6ED58E1B7BC42E00F2AB24 /* PersistantStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistantStack.swift; sourceTree = "<group>"; };
+		6B6ED5911B7BD8DB00F2AB24 /* InventoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryTableViewCell.swift; sourceTree = "<group>"; };
+		6B6ED5941B7BDE5B00F2AB24 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		6B707A081B7BAA1800C79F11 /* InventoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
 		6B707A0A1B7BAB5800C79F11 /* InventoryControllerDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryControllerDataSource.swift; sourceTree = "<group>"; };
 		6B7B28AF1B7AAA670062DFED /* Plazr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plazr.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,8 +120,6 @@
 		6B7B28A61B7AAA670062DFED = {
 			isa = PBXGroup;
 			children = (
-				6B6ED58B1B7BB43B00F2AB24 /* InventoryManager.swift */,
-				6B6ED58E1B7BC42E00F2AB24 /* PersistantStack.swift */,
 				6B7B28B11B7AAA670062DFED /* Plazr */,
 				6B7B28C91B7AAA670062DFED /* PlazrTests */,
 				6B7B28D41B7AAA670062DFED /* PlazrUITests */,
@@ -137,6 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				6B7B28B21B7AAA670062DFED /* AppDelegate.swift */,
+				6B6ED58B1B7BB43B00F2AB24 /* InventoryManager.swift */,
+				6B6ED5911B7BD8DB00F2AB24 /* InventoryTableViewCell.swift */,
 				6B707A0A1B7BAB5800C79F11 /* InventoryControllerDataSource.swift */,
 				6B707A081B7BAA1800C79F11 /* InventoryViewController.swift */,
 				6B7B28B61B7AAA670062DFED /* Main.storyboard */,
@@ -170,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				6B7B28B91B7AAA670062DFED /* Plazr.xcdatamodeld */,
+				6B6ED58E1B7BC42E00F2AB24 /* PersistantStack.swift */,
 				6B7B29281B7B9A230062DFED /* CustomerData+CoreDataProperties.swift */,
 				6B7B29291B7B9A230062DFED /* CustomerData.swift */,
 				6B7B292A1B7B9A230062DFED /* TransactionData+CoreDataProperties.swift */,
@@ -185,6 +192,7 @@
 		6B7B28F41B7AB6DE0062DFED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6B6ED5941B7BDE5B00F2AB24 /* Media.xcassets */,
 				6B7B28BC1B7AAA670062DFED /* Assets.xcassets */,
 				6B7B28C11B7AAA670062DFED /* Info.plist */,
 			);
@@ -296,6 +304,7 @@
 			files = (
 				6B7B28C01B7AAA670062DFED /* LaunchScreen.storyboard in Resources */,
 				6B7B28BD1B7AAA670062DFED /* Assets.xcassets in Resources */,
+				6B6ED5951B7BDE5B00F2AB24 /* Media.xcassets in Resources */,
 				6B7B28B81B7AAA670062DFED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B6ED5961B7BDE5B00F2AB24 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +339,7 @@
 				6B7B29341B7B9A230062DFED /* TransactionData+CoreDataProperties.swift in Sources */,
 				6B7B29321B7B9A230062DFED /* CustomerData.swift in Sources */,
 				6B7B28BB1B7AAA670062DFED /* Plazr.xcdatamodeld in Sources */,
+				6B6ED5921B7BD8DB00F2AB24 /* InventoryTableViewCell.swift in Sources */,
 				6B707A0B1B7BAB5800C79F11 /* InventoryControllerDataSource.swift in Sources */,
 				6B7B293A1B7B9A230062DFED /* InventoryData.swift in Sources */,
 				6B6ED58C1B7BB43B00F2AB24 /* InventoryManager.swift in Sources */,
@@ -354,6 +365,7 @@
 				6B7B293B1B7B9A230062DFED /* InventoryData.swift in Sources */,
 				6B7B28F71B7B86BC0062DFED /* DataStructures.swift in Sources */,
 				6B6ED58D1B7BB43B00F2AB24 /* InventoryManager.swift in Sources */,
+				6B6ED5931B7BD8DB00F2AB24 /* InventoryTableViewCell.swift in Sources */,
 				6B7B293D1B7B9A230062DFED /* TransactionItemData+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

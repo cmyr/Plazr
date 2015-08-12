@@ -17,6 +17,7 @@ class InventoryViewController: UIViewController, UITableViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.delegate = self
         inventoryManager.addDebugInventory()
         dataSource = InventoryControllerDataSource(tableView: tableView)
         dataSource?.fetchedResultsController = inventoryManager.inventoryFetchedResultsController()
@@ -30,9 +31,10 @@ class InventoryViewController: UIViewController, UITableViewDelegate {
     }
     
 
-    func addInitialTransactions() {
-
+    func tableView(tableView: UITableView, shouldIndentWhileEditingRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+        return false
     }
+
     /*
     // MARK: - Navigation
 

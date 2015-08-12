@@ -33,7 +33,15 @@ class InventoryControllerDataSource: NSObject, UITableViewDataSource, NSFetchedR
 
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        return tableView.dequeueReusableCellWithIdentifier(inventoryCellIdentifier, forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier(inventoryCellIdentifier, forIndexPath: indexPath) as! InventoryTableViewCell
+        if let data = fetchedResultsController.objectAtIndexPath(indexPath) as? InventoryData {
+            let inventory = Inventory(managedObject: data)
+            cell.inventoryItem = inventory
+        } else {
+            cell.inventoryItem = nil
+        }
+
+        return cell
     }
 
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
