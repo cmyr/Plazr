@@ -15,6 +15,14 @@
 		6B7B28C01B7AAA670062DFED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B7B28BE1B7AAA670062DFED /* LaunchScreen.storyboard */; };
 		6B7B28CB1B7AAA670062DFED /* PlazrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B28CA1B7AAA670062DFED /* PlazrTests.swift */; };
 		6B7B28D61B7AAA670062DFED /* PlazrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B28D51B7AAA670062DFED /* PlazrUITests.swift */; };
+		6B7B28EB1B7AB6A60062DFED /* Customer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B28E31B7AB6A60062DFED /* Customer+CoreDataProperties.swift */; };
+		6B7B28EC1B7AB6A60062DFED /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B28E41B7AB6A60062DFED /* Customer.swift */; };
+		6B7B28ED1B7AB6A60062DFED /* Inventory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B28E51B7AB6A60062DFED /* Inventory+CoreDataProperties.swift */; };
+		6B7B28EE1B7AB6A60062DFED /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B28E61B7AB6A60062DFED /* Inventory.swift */; };
+		6B7B28EF1B7AB6A60062DFED /* TransactionItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B28E71B7AB6A60062DFED /* TransactionItem+CoreDataProperties.swift */; };
+		6B7B28F01B7AB6A60062DFED /* TransactionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B28E81B7AB6A60062DFED /* TransactionItem.swift */; };
+		6B7B28F11B7AB6A60062DFED /* Transaction+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B28E91B7AB6A60062DFED /* Transaction+CoreDataProperties.swift */; };
+		6B7B28F21B7AB6A60062DFED /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B28EA1B7AB6A60062DFED /* Transaction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		6B7B28D11B7AAA670062DFED /* PlazrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlazrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B7B28D51B7AAA670062DFED /* PlazrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlazrUITests.swift; sourceTree = "<group>"; };
 		6B7B28D71B7AAA670062DFED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B7B28E31B7AB6A60062DFED /* Customer+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Customer+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6B7B28E41B7AB6A60062DFED /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		6B7B28E51B7AB6A60062DFED /* Inventory+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Inventory+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6B7B28E61B7AB6A60062DFED /* Inventory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
+		6B7B28E71B7AB6A60062DFED /* TransactionItem+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TransactionItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6B7B28E81B7AB6A60062DFED /* TransactionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionItem.swift; sourceTree = "<group>"; };
+		6B7B28E91B7AB6A60062DFED /* Transaction+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Transaction+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6B7B28EA1B7AB6A60062DFED /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +118,9 @@
 				6B7B28B21B7AAA670062DFED /* AppDelegate.swift */,
 				6B7B28B41B7AAA670062DFED /* ViewController.swift */,
 				6B7B28B61B7AAA670062DFED /* Main.storyboard */,
-				6B7B28BC1B7AAA670062DFED /* Assets.xcassets */,
 				6B7B28BE1B7AAA670062DFED /* LaunchScreen.storyboard */,
-				6B7B28C11B7AAA670062DFED /* Info.plist */,
-				6B7B28B91B7AAA670062DFED /* Plazr.xcdatamodeld */,
+				6B7B28F31B7AB6BF0062DFED /* CoreData */,
+				6B7B28F41B7AB6DE0062DFED /* Supporting Files */,
 			);
 			path = Plazr;
 			sourceTree = "<group>";
@@ -126,6 +141,31 @@
 				6B7B28D71B7AAA670062DFED /* Info.plist */,
 			);
 			path = PlazrUITests;
+			sourceTree = "<group>";
+		};
+		6B7B28F31B7AB6BF0062DFED /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				6B7B28B91B7AAA670062DFED /* Plazr.xcdatamodeld */,
+				6B7B28E31B7AB6A60062DFED /* Customer+CoreDataProperties.swift */,
+				6B7B28E41B7AB6A60062DFED /* Customer.swift */,
+				6B7B28E51B7AB6A60062DFED /* Inventory+CoreDataProperties.swift */,
+				6B7B28E61B7AB6A60062DFED /* Inventory.swift */,
+				6B7B28E71B7AB6A60062DFED /* TransactionItem+CoreDataProperties.swift */,
+				6B7B28E81B7AB6A60062DFED /* TransactionItem.swift */,
+				6B7B28E91B7AB6A60062DFED /* Transaction+CoreDataProperties.swift */,
+				6B7B28EA1B7AB6A60062DFED /* Transaction.swift */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		6B7B28F41B7AB6DE0062DFED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B7B28BC1B7AAA670062DFED /* Assets.xcassets */,
+				6B7B28C11B7AAA670062DFED /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +298,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B7B28F21B7AB6A60062DFED /* Transaction.swift in Sources */,
+				6B7B28F11B7AB6A60062DFED /* Transaction+CoreDataProperties.swift in Sources */,
+				6B7B28ED1B7AB6A60062DFED /* Inventory+CoreDataProperties.swift in Sources */,
+				6B7B28F01B7AB6A60062DFED /* TransactionItem.swift in Sources */,
 				6B7B28B51B7AAA670062DFED /* ViewController.swift in Sources */,
+				6B7B28EE1B7AB6A60062DFED /* Inventory.swift in Sources */,
+				6B7B28EF1B7AB6A60062DFED /* TransactionItem+CoreDataProperties.swift in Sources */,
+				6B7B28EC1B7AB6A60062DFED /* Customer.swift in Sources */,
 				6B7B28BB1B7AAA670062DFED /* Plazr.xcdatamodeld in Sources */,
 				6B7B28B31B7AAA670062DFED /* AppDelegate.swift in Sources */,
+				6B7B28EB1B7AB6A60062DFED /* Customer+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

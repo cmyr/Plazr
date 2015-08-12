@@ -1,4 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8175.2" systemVersion="14E46" minimumToolsVersion="Automatic">
+    <entity name="Customer" representedClassName=".Customer" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="interests" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="purchaes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Transaction" inverseName="client" inverseEntity="Transaction" syncable="YES"/>
+    </entity>
+    <entity name="Inventory" representedClassName=".Inventory" syncable="YES">
+        <attribute name="art" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="artist" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="buyer" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="category" attributeType="Integer 16" defaultValueString="-1" syncable="YES"/>
+        <attribute name="info" attributeType="String" syncable="YES"/>
+        <attribute name="publisher" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sku" attributeType="String" defaultValueString="0-0" syncable="YES"/>
+        <attribute name="stock" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unit_cost" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="transactions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TransactionItem" inverseName="item" inverseEntity="TransactionItem" syncable="YES"/>
+    </entity>
+    <entity name="Transaction" representedClassName=".Transaction" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="client" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Customer" inverseName="purchaes" inverseEntity="Customer" syncable="YES"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TransactionItem" inverseName="transaction" inverseEntity="TransactionItem" syncable="YES"/>
+    </entity>
+    <entity name="TransactionItem" representedClassName=".TransactionItem" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="quantity" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="item" maxCount="1" deletionRule="Nullify" destinationEntity="Inventory" inverseName="transactions" inverseEntity="Inventory" syncable="YES"/>
+        <relationship name="transaction" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Transaction" inverseName="items" inverseEntity="Transaction" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Inventory" positionX="-63" positionY="-18" width="128" height="210"/>
+        <element name="TransactionItem" positionX="-54" positionY="63" width="128" height="120"/>
+        <element name="Transaction" positionX="-36" positionY="90" width="128" height="90"/>
+        <element name="Customer" positionX="-18" positionY="99" width="128" height="105"/>
+    </elements>
 </model>
