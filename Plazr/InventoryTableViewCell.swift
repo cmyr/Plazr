@@ -24,7 +24,7 @@ class InventoryTableViewCell: UITableViewCell {
             titleLabel.text = inventoryItem?.title
             artistLabel.text = inventoryItem?.artist
             priceLabel.text = "$\(inventoryItem?.retailCost ?? 0)"
-            stockCountLabel.text = "\(inventoryItem?.stock ?? 0)"
+            stockCountLabel.text = "/ \(inventoryItem?.stock ?? 0)"
         }
     }
     

@@ -32,16 +32,16 @@ class InventoryControllerDataSource: NSObject, UITableViewDataSource, NSFetchedR
         self.tableView.dataSource = self
     }
 
+    func itemForIndexPath(indexPath: NSIndexPath) -> Inventory? {
+        if let data = fetchedResultsController.objectAtIndexPath(indexPath) as? InventoryData {
+            return Inventory(managedObject: data)
+        }
+        return nil
+    }
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier(inventoryCellIdentifier, forIndexPath: indexPath) as! InventoryTableViewCell
-        if let data = fetchedResultsController.objectAtIndexPath(indexPath) as? InventoryData {
-            let inventory = Inventory(managedObject: data)
-            cell.inventoryItem = inventory
-        } else {
-            cell.inventoryItem = nil
-        }
-
+        cell.inventoryItem = itemForIndexPath(indexPath)
         return cell
     }
 

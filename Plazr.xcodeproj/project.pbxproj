@@ -15,6 +15,8 @@
 		6B6ED5931B7BD8DB00F2AB24 /* InventoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6ED5911B7BD8DB00F2AB24 /* InventoryTableViewCell.swift */; };
 		6B6ED5951B7BDE5B00F2AB24 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B6ED5941B7BDE5B00F2AB24 /* Media.xcassets */; };
 		6B6ED5961B7BDE5B00F2AB24 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B6ED5941B7BDE5B00F2AB24 /* Media.xcassets */; };
+		6B6ED5981B7C0A8A00F2AB24 /* InventoryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6ED5971B7C0A8A00F2AB24 /* InventoryDetailsViewController.swift */; };
+		6B6ED5991B7C0A8A00F2AB24 /* InventoryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6ED5971B7C0A8A00F2AB24 /* InventoryDetailsViewController.swift */; };
 		6B707A091B7BAA1800C79F11 /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B707A081B7BAA1800C79F11 /* InventoryViewController.swift */; };
 		6B707A0B1B7BAB5800C79F11 /* InventoryControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B707A0A1B7BAB5800C79F11 /* InventoryControllerDataSource.swift */; };
 		6B7B28B31B7AAA670062DFED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B28B21B7AAA670062DFED /* AppDelegate.swift */; };
@@ -66,6 +68,7 @@
 		6B6ED58E1B7BC42E00F2AB24 /* PersistantStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistantStack.swift; sourceTree = "<group>"; };
 		6B6ED5911B7BD8DB00F2AB24 /* InventoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryTableViewCell.swift; sourceTree = "<group>"; };
 		6B6ED5941B7BDE5B00F2AB24 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		6B6ED5971B7C0A8A00F2AB24 /* InventoryDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryDetailsViewController.swift; sourceTree = "<group>"; };
 		6B707A081B7BAA1800C79F11 /* InventoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
 		6B707A0A1B7BAB5800C79F11 /* InventoryControllerDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryControllerDataSource.swift; sourceTree = "<group>"; };
 		6B7B28AF1B7AAA670062DFED /* Plazr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plazr.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,6 +148,7 @@
 				6B6ED5911B7BD8DB00F2AB24 /* InventoryTableViewCell.swift */,
 				6B707A0A1B7BAB5800C79F11 /* InventoryControllerDataSource.swift */,
 				6B707A081B7BAA1800C79F11 /* InventoryViewController.swift */,
+				6B6ED5971B7C0A8A00F2AB24 /* InventoryDetailsViewController.swift */,
 				6B7B28B61B7AAA670062DFED /* Main.storyboard */,
 				6B7B28BE1B7AAA670062DFED /* LaunchScreen.storyboard */,
 				6B7B28F51B7B86BC0062DFED /* DataStructures.swift */,
@@ -340,6 +344,7 @@
 				6B7B29321B7B9A230062DFED /* CustomerData.swift in Sources */,
 				6B7B28BB1B7AAA670062DFED /* Plazr.xcdatamodeld in Sources */,
 				6B6ED5921B7BD8DB00F2AB24 /* InventoryTableViewCell.swift in Sources */,
+				6B6ED5981B7C0A8A00F2AB24 /* InventoryDetailsViewController.swift in Sources */,
 				6B707A0B1B7BAB5800C79F11 /* InventoryControllerDataSource.swift in Sources */,
 				6B7B293A1B7B9A230062DFED /* InventoryData.swift in Sources */,
 				6B6ED58C1B7BB43B00F2AB24 /* InventoryManager.swift in Sources */,
@@ -358,6 +363,7 @@
 				6B7B29351B7B9A230062DFED /* TransactionData+CoreDataProperties.swift in Sources */,
 				6B7B29311B7B9A230062DFED /* CustomerData+CoreDataProperties.swift in Sources */,
 				6B7B293F1B7B9A230062DFED /* TransactionItemData.swift in Sources */,
+				6B6ED5991B7C0A8A00F2AB24 /* InventoryDetailsViewController.swift in Sources */,
 				6B7B29391B7B9A230062DFED /* InventoryData+CoreDataProperties.swift in Sources */,
 				6B7B29331B7B9A230062DFED /* CustomerData.swift in Sources */,
 				6B7B28CB1B7AAA670062DFED /* PlazrTests.swift in Sources */,
